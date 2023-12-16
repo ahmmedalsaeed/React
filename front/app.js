@@ -45,7 +45,7 @@ function Data() {
     const [loadingErr, setErr] = useState('');
     const [loading, setLoading] = useState(true);
     useEffect(() => {
-        fetch('http://localhost:5000/getzones')
+        fetch('https://cautious-palm-tree-v9qjqwj5jv7hwgrv-5000.app.github.dev/getzones')
           .then((res) => res.json())
           .then(res => {
             console.log('Response:', res);

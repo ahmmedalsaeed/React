@@ -7,7 +7,7 @@ const sensorSchema = new mongoose.Schema({
     sensorType: { type: String, required: true },
     data: [{type:mongoose.Schema.Types.ObjectId,ref:"Data"}],
     zoneId_Ref: { type: mongoose.Schema.Types.ObjectId, ref: 'Zone'},
-    zoneId:{type: String ,required:true},
+    zoneId:{type: Number ,required:true},
   });
 const Sensor = mongoose.model('Sensor', sensorSchema);
 module.exports = Sensor;

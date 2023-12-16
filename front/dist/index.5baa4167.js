@@ -3093,7 +3093,7 @@ function Data() {
     const [loadingErr, setErr] = (0, _react.useState)("");
     const [loading, setLoading] = (0, _react.useState)(true);
     (0, _react.useEffect)(()=>{
-        fetch("http://localhost:5000/getzones").then((res)=>res.json()).then((res)=>{
+        fetch("https://cautious-palm-tree-v9qjqwj5jv7hwgrv-5000.app.github.dev/getzones").then((res)=>res.json()).then((res)=>{
             console.log("Response:", res);
             if (res && Array.isArray(res.data)) {
                 // Map the data array to a new format
