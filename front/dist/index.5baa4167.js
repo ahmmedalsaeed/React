@@ -2942,6 +2942,7 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$6024.prelude(module);
 
 try {
+// last update
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
@@ -2968,25 +2969,25 @@ function Dashboard() {
                                     children: "Zones"
                                 }, void 0, false, {
                                     fileName: "app.js",
-                                    lineNumber: 17,
+                                    lineNumber: 18,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "3 Zones"
                                 }, void 0, false, {
                                     fileName: "app.js",
-                                    lineNumber: 18,
+                                    lineNumber: 19,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "app.js",
-                            lineNumber: 16,
+                            lineNumber: 17,
                             columnNumber: 25
                         }, this)
                     }, void 0, false, {
                         fileName: "app.js",
-                        lineNumber: 15,
+                        lineNumber: 16,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -2998,25 +2999,25 @@ function Dashboard() {
                                     children: "Sensors"
                                 }, void 0, false, {
                                     fileName: "app.js",
-                                    lineNumber: 23,
+                                    lineNumber: 24,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "100 sensors"
                                 }, void 0, false, {
                                     fileName: "app.js",
-                                    lineNumber: 24,
+                                    lineNumber: 25,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "app.js",
-                            lineNumber: 22,
+                            lineNumber: 23,
                             columnNumber: 25
                         }, this)
                     }, void 0, false, {
                         fileName: "app.js",
-                        lineNumber: 21,
+                        lineNumber: 22,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -3028,31 +3029,31 @@ function Dashboard() {
                                     children: "Readings"
                                 }, void 0, false, {
                                     fileName: "app.js",
-                                    lineNumber: 29,
+                                    lineNumber: 30,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                     children: "10 Million"
                                 }, void 0, false, {
                                     fileName: "app.js",
-                                    lineNumber: 30,
+                                    lineNumber: 31,
                                     columnNumber: 29
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "app.js",
-                            lineNumber: 28,
+                            lineNumber: 29,
                             columnNumber: 25
                         }, this)
                     }, void 0, false, {
                         fileName: "app.js",
-                        lineNumber: 27,
+                        lineNumber: 28,
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "app.js",
-                lineNumber: 14,
+                lineNumber: 15,
                 columnNumber: 17
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -3062,26 +3063,26 @@ function Dashboard() {
                         children: "Dashboard"
                     }, void 0, false, {
                         fileName: "app.js",
-                        lineNumber: 35,
+                        lineNumber: 36,
                         columnNumber: 21
                     }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: "Some text.."
                     }, void 0, false, {
                         fileName: "app.js",
-                        lineNumber: 36,
+                        lineNumber: 37,
                         columnNumber: 21
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "app.js",
-                lineNumber: 34,
+                lineNumber: 35,
                 columnNumber: 17
             }, this)
         ]
     }, void 0, true, {
         fileName: "app.js",
-        lineNumber: 13,
+        lineNumber: 14,
         columnNumber: 13
     }, this);
 }
@@ -3154,7 +3155,7 @@ function Data() {
                                 children: "Add Zone"
                             }, void 0, false, {
                                 fileName: "app.js",
-                                lineNumber: 112,
+                                lineNumber: 113,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
@@ -3167,7 +3168,7 @@ function Data() {
                                         placeholder: "Zone Id"
                                     }, void 0, false, {
                                         fileName: "app.js",
-                                        lineNumber: 114,
+                                        lineNumber: 115,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -3177,7 +3178,7 @@ function Data() {
                                         placeholder: "Zone Name"
                                     }, void 0, false, {
                                         fileName: "app.js",
-                                        lineNumber: 118,
+                                        lineNumber: 119,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -3185,24 +3186,24 @@ function Data() {
                                         value: "Add Using REST API"
                                     }, void 0, false, {
                                         fileName: "app.js",
-                                        lineNumber: 122,
+                                        lineNumber: 123,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "app.js",
-                                lineNumber: 113,
+                                lineNumber: 114,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "app.js",
-                        lineNumber: 111,
+                        lineNumber: 112,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "app.js",
-                    lineNumber: 110,
+                    lineNumber: 111,
                     columnNumber: 17
                 }, this),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -3214,14 +3215,14 @@ function Data() {
                                 children: "Add Sensor"
                             }, void 0, false, {
                                 fileName: "app.js",
-                                lineNumber: 128,
+                                lineNumber: 129,
                                 columnNumber: 25
                             }, this),
                             loading ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                 children: "Loading..."
                             }, void 0, false, {
                                 fileName: "app.js",
-                                lineNumber: 130,
+                                lineNumber: 131,
                                 columnNumber: 29
                             }, this) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
                                 children: [
@@ -3229,26 +3230,26 @@ function Data() {
                                             children: i.zoneName
                                         }, i._id, false, {
                                             fileName: "app.js",
-                                            lineNumber: 133,
+                                            lineNumber: 134,
                                             columnNumber: 73
                                         }, this)) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
                                         children: "No data available"
                                     }, void 0, false, {
                                         fileName: "app.js",
-                                        lineNumber: 135,
+                                        lineNumber: 136,
                                         columnNumber: 33
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                                         children: loadingErr
                                     }, void 0, false, {
                                         fileName: "app.js",
-                                        lineNumber: 137,
+                                        lineNumber: 138,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "app.js",
-                                lineNumber: 132,
+                                lineNumber: 133,
                                 columnNumber: 29
                             }, this),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
@@ -3263,12 +3264,12 @@ function Data() {
                                                 children: item.zoneName
                                             }, item._id, false, {
                                                 fileName: "app.js",
-                                                lineNumber: 149,
+                                                lineNumber: 150,
                                                 columnNumber: 33
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "app.js",
-                                        lineNumber: 147,
+                                        lineNumber: 148,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -3278,7 +3279,7 @@ function Data() {
                                         placeholder: "Sensor Id"
                                     }, void 0, false, {
                                         fileName: "app.js",
-                                        lineNumber: 156,
+                                        lineNumber: 157,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -3288,7 +3289,7 @@ function Data() {
                                         placeholder: "Sensor Name"
                                     }, void 0, false, {
                                         fileName: "app.js",
-                                        lineNumber: 160,
+                                        lineNumber: 161,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -3298,7 +3299,7 @@ function Data() {
                                         placeholder: "Sensor Name"
                                     }, void 0, false, {
                                         fileName: "app.js",
-                                        lineNumber: 164,
+                                        lineNumber: 165,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -3306,35 +3307,35 @@ function Data() {
                                         value: "Add Using REST API"
                                     }, void 0, false, {
                                         fileName: "app.js",
-                                        lineNumber: 168,
+                                        lineNumber: 169,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "app.js",
-                                lineNumber: 146,
+                                lineNumber: 147,
                                 columnNumber: 25
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "app.js",
-                        lineNumber: 127,
+                        lineNumber: 128,
                         columnNumber: 21
                     }, this)
                 }, void 0, false, {
                     fileName: "app.js",
-                    lineNumber: 126,
+                    lineNumber: 127,
                     columnNumber: 17
                 }, this)
             ]
         }, void 0, true, {
             fileName: "app.js",
-            lineNumber: 109,
+            lineNumber: 110,
             columnNumber: 13
         }, this)
     }, void 0, false, {
         fileName: "app.js",
-        lineNumber: 108,
+        lineNumber: 109,
         columnNumber: 13
     }, this);
 }
@@ -3351,14 +3352,14 @@ function ErrorPage() {
                 children: "Oops!"
             }, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 183,
+                lineNumber: 184,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: "Sorry, an unexpected error has occurred."
             }, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 184,
+                lineNumber: 185,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -3366,18 +3367,18 @@ function ErrorPage() {
                     children: error.statusText || error.message
                 }, void 0, false, {
                     fileName: "app.js",
-                    lineNumber: 186,
+                    lineNumber: 187,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "app.js",
-                lineNumber: 185,
+                lineNumber: 186,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "app.js",
-        lineNumber: 182,
+        lineNumber: 183,
         columnNumber: 5
     }, this);
 }
@@ -3392,12 +3393,12 @@ const router = (0, _reactRouterDom.createBrowserRouter)([
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Dashboard, {}, void 0, false, {
             fileName: "app.js",
-            lineNumber: 195,
+            lineNumber: 196,
             columnNumber: 16
         }, undefined),
         errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(ErrorPage, {}, void 0, false, {
             fileName: "app.js",
-            lineNumber: 196,
+            lineNumber: 197,
             columnNumber: 21
         }, undefined)
     },
@@ -3405,7 +3406,7 @@ const router = (0, _reactRouterDom.createBrowserRouter)([
         path: "/data",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Data, {}, void 0, false, {
             fileName: "app.js",
-            lineNumber: 200,
+            lineNumber: 201,
             columnNumber: 16
         }, undefined)
     }
@@ -3415,12 +3416,12 @@ const router = (0, _reactRouterDom.createBrowserRouter)([
         router: router
     }, void 0, false, {
         fileName: "app.js",
-        lineNumber: 206,
+        lineNumber: 207,
         columnNumber: 7
     }, undefined)
 }, void 0, false, {
     fileName: "app.js",
-    lineNumber: 205,
+    lineNumber: 206,
     columnNumber: 5
 }, undefined));
 var _c, _c1, _c2;
