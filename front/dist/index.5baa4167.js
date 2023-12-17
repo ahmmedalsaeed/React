@@ -2958,7 +2958,7 @@ function Dashboard() {
     const [dataData, setDataData] = (0, _react.useState)([]);
     // GET /zones
     (0, _react.useEffect)(()=>{
-        fetch("https://automatic-space-acorn-rqp5pw5x9rxfppr9-5000.app.github.dev/getzones").then((res)=>res.json()).then((res)=>{
+        fetch("https://becoe558-6zz5dmf32a-uc.a.run.app/getzones").then((res)=>res.json()).then((res)=>{
             console.log("Response Zones:", res);
             if (res && Array.isArray(res.data)) setZoneData(res.data);
             else throw new Error("Invalid response format");
@@ -2966,7 +2966,7 @@ function Dashboard() {
     }, []);
     // GET /sensors
     (0, _react.useEffect)(()=>{
-        fetch("https://automatic-space-acorn-rqp5pw5x9rxfppr9-5000.app.github.dev/getsensors").then((res)=>res.json()).then((res)=>{
+        fetch("https://becoe558-6zz5dmf32a-uc.a.run.app/getsensors").then((res)=>res.json()).then((res)=>{
             console.log("Response Sensors:", res);
             if (res && Array.isArray(res.data)) setSensorData(res.data);
             else throw new Error("Invalid response format");
@@ -2974,7 +2974,7 @@ function Dashboard() {
     }, []);
     // GET /data
     (0, _react.useEffect)(()=>{
-        fetch("https://automatic-space-acorn-rqp5pw5x9rxfppr9-5000.app.github.dev/getdata").then((res)=>res.json()).then((res)=>{
+        fetch("https://becoe558-6zz5dmf32a-uc.a.run.app/getdata").then((res)=>res.json()).then((res)=>{
             console.log("Response Data:", res);
             if (res && Array.isArray(res.data)) setDataData(res.data);
             else throw new Error("Invalid response format");
@@ -3127,7 +3127,7 @@ function Data() {
     _s1();
     const [zoneData, setZoneData] = (0, _react.useState)([]);
     (0, _react.useEffect)(()=>{
-        fetch("https://automatic-space-acorn-rqp5pw5x9rxfppr9-5000.app.github.dev/getzones").then((res)=>res.json()).then((res)=>{
+        fetch("https://becoe558-6zz5dmf32a-uc.a.run.app/getzones").then((res)=>res.json()).then((res)=>{
             console.log("Response:", res);
             if (res && Array.isArray(res.data)) {
                 // Map the data array to a new format
@@ -3168,7 +3168,7 @@ function Data() {
             zoneId: zoneId,
             zoneName: zoneName
         };
-        fetch("https://automatic-space-acorn-rqp5pw5x9rxfppr9-5000.app.github.dev/zone", {
+        fetch("https://becoe558-6zz5dmf32a-uc.a.run.app/zone", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -3202,7 +3202,7 @@ function Data() {
             sensorName: sensorName,
             sensorType: sensorType
         };
-        fetch("https://automatic-space-acorn-rqp5pw5x9rxfppr9-5000.app.github.dev/sensor", {
+        fetch("https://becoe558-6zz5dmf32a-uc.a.run.app/sensor", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

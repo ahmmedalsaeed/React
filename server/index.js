@@ -5,6 +5,7 @@ const Data = require('./models/data');
 const Zone=require('./models/zone');
 const Sensor=require('./models/sensor');
 const bodyParser = require('body-parser');
+const PORT = process.env.PORT || 5000;
 
 const MONGODB_URI =
   'mongodb+srv://coe558:kfupm@coe558.9j0xsua.mongodb.net/?retryWrites=true&w=majority';
@@ -180,6 +181,6 @@ app.get('/getsensordata/:id', async (req, res) => {
         res.status(400).json({ message: err.message });
     }
 })
-app.listen(5000, () => {
+app.listen(PORT, () => {
     console.log("Server is running on port 5000");
 })

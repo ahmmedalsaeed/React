@@ -14,7 +14,7 @@ function Dashboard() {
   const [dataData, setDataData] = useState([]);
   // GET /zones
   useEffect(() => {
-      fetch('https://automatic-space-acorn-rqp5pw5x9rxfppr9-5000.app.github.dev/getzones')
+      fetch('https://becoe558-6zz5dmf32a-uc.a.run.app/getzones')
         .then((res) => res.json())
         .then(res => {
           console.log('Response Zones:', res);
@@ -29,7 +29,7 @@ function Dashboard() {
 
   // GET /sensors
   useEffect(() => {
-    fetch('https://automatic-space-acorn-rqp5pw5x9rxfppr9-5000.app.github.dev/getsensors')
+    fetch('https://becoe558-6zz5dmf32a-uc.a.run.app/getsensors')
       .then((res) => res.json())
       .then(res => {
         console.log('Response Sensors:', res);
@@ -44,7 +44,7 @@ function Dashboard() {
 
   // GET /data
   useEffect(() => {
-    fetch('https://automatic-space-acorn-rqp5pw5x9rxfppr9-5000.app.github.dev/getdata')
+    fetch('https://becoe558-6zz5dmf32a-uc.a.run.app/getdata')
       .then((res) => res.json())
       .then(res => {
         console.log('Response Data:', res);
@@ -90,7 +90,7 @@ function Dashboard() {
 function Data() {
     const [zoneData, setZoneData] = useState([]);
     useEffect(() => {
-        fetch('https://automatic-space-acorn-rqp5pw5x9rxfppr9-5000.app.github.dev/getzones')
+        fetch('https://becoe558-6zz5dmf32a-uc.a.run.app/getzones')
           .then((res) => res.json())
           .then(res => {
             console.log('Response:', res);
@@ -143,7 +143,7 @@ function Data() {
         zoneName: zoneName,
       };
 
-      fetch('https://automatic-space-acorn-rqp5pw5x9rxfppr9-5000.app.github.dev/zone', {
+      fetch('https://becoe558-6zz5dmf32a-uc.a.run.app/zone', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json', // Set the Content-Type header for JSON data
@@ -185,7 +185,7 @@ function Data() {
         sensorType: sensorType,
       };
 
-      fetch('https://automatic-space-acorn-rqp5pw5x9rxfppr9-5000.app.github.dev/sensor', {
+      fetch('https://becoe558-6zz5dmf32a-uc.a.run.app/sensor', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
