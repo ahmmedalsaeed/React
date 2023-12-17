@@ -1,0 +1,185 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "GraphQl",
+    "dateExported": "2023-12-17T21:27:53.134Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "da25a212-1201-4703-ac20-02a08b07a1af",
+            "colId": "fdaf9b85-32b8-4c5a-9757-50924178c438",
+            "containerId": "",
+            "name": "createSensor",
+            "url": "http://localhost:5000/graphql",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-17T16:17:01.449Z",
+            "modified": "2023-12-17T21:02:14.855Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "graphql",
+                "raw": "",
+                "form": [],
+                "graphql": {
+                    "query": "mutation {\n  createSensor(sensorId: 42423333, sensorName: \"Example Sensor\", sensorType: \"Temperature\",zoneId:42423333) {\n    \n    sensorId\n    sensorName\n    sensorType\n    zoneId\n  }\n}\n"
+                }
+            },
+            "tests": []
+        },
+        {
+            "_id": "95780da4-110c-4652-bef1-559846fe769a",
+            "colId": "fdaf9b85-32b8-4c5a-9757-50924178c438",
+            "containerId": "",
+            "name": "createZone",
+            "url": "http://localhost:5000/graphql",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-12-17T16:17:14.070Z",
+            "modified": "2023-12-17T21:01:35.684Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "graphql",
+                "raw": "",
+                "form": [],
+                "graphql": {
+                    "query": "mutation {\n  createZone(zoneId: 42423333, zoneName: \"Example Zone\") {\n    zoneId\n    zoneName\n  }\n}\n"
+                }
+            },
+            "tests": []
+        },
+        {
+            "_id": "016f2528-6359-4999-878c-b0c1c6a4ddb1",
+            "colId": "fdaf9b85-32b8-4c5a-9757-50924178c438",
+            "containerId": "",
+            "name": "createData",
+            "url": "http://localhost:5000/graphql",
+            "method": "POST",
+            "sortNum": 25000,
+            "created": "2023-12-17T21:18:50.891Z",
+            "modified": "2023-12-17T21:18:50.891Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "graphql",
+                "raw": "",
+                "form": [],
+                "graphql": {
+                    "query": "mutation {\n  createData(sensorId: 42423333, value:5.5) {\n    \n    value\n  }\n}\n"
+                }
+            },
+            "tests": []
+        },
+        {
+            "_id": "a8922114-0c86-47e6-876c-662e57a76669",
+            "colId": "fdaf9b85-32b8-4c5a-9757-50924178c438",
+            "containerId": "",
+            "name": "getAllSensors",
+            "url": "http://localhost:5000/graphql",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-12-17T20:43:38.332Z",
+            "modified": "2023-12-17T20:43:38.332Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "graphql",
+                "raw": "",
+                "form": [],
+                "graphql": {
+                    "query": "{\n  getAllSensors {\n    sensorName\n    sensorType\n    zoneId\n    \n}\n}\n"
+                }
+            },
+            "tests": []
+        },
+        {
+            "_id": "99664369-d696-4e14-872e-6cf1c19bcaee",
+            "colId": "fdaf9b85-32b8-4c5a-9757-50924178c438",
+            "containerId": "",
+            "name": "getAllData",
+            "url": "http://localhost:5000/graphql",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-12-17T20:43:53.681Z",
+            "modified": "2023-12-17T20:43:53.681Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "graphql",
+                "raw": "",
+                "form": [],
+                "graphql": {
+                    "query": "{\n  getAllData {\n    value\n    timestamp\n    sensorId\n}\n}\n"
+                }
+            },
+            "tests": []
+        },
+        {
+            "_id": "ac38086b-417f-4c27-bb70-3d62e01efca8",
+            "colId": "fdaf9b85-32b8-4c5a-9757-50924178c438",
+            "containerId": "",
+            "name": "getAllZones",
+            "url": "http://localhost:5000/graphql",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-12-17T20:45:55.251Z",
+            "modified": "2023-12-17T21:25:00.494Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "graphql",
+                "raw": "",
+                "form": [],
+                "graphql": {
+                    "query": "{\n  getAllZones {\n    zoneName\n    zoneId\n    sensors{\n    sensorName\n    sensorType\n    zoneId\n    data{\n        value\n    }\n  }\n}\n}\n"
+                }
+            },
+            "tests": []
+        },
+        {
+            "_id": "13b7d95e-1cdf-4684-a495-61059503a3de",
+            "colId": "fdaf9b85-32b8-4c5a-9757-50924178c438",
+            "containerId": "",
+            "name": "getSensor",
+            "url": "http://localhost:5000/graphql",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-12-17T20:47:40.913Z",
+            "modified": "2023-12-17T21:21:19.821Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "graphql",
+                "raw": "",
+                "form": [],
+                "graphql": {
+                    "query": "{\n  getSensor(sensorId: 15) {\n  \n    sensorName\n    sensorType\n    data{\n        value\n    }\n  }\n}\n"
+                }
+            },
+            "tests": []
+        },
+        {
+            "_id": "f239241d-dda1-43f0-9fa3-0afb9f8f24e4",
+            "colId": "fdaf9b85-32b8-4c5a-9757-50924178c438",
+            "containerId": "",
+            "name": "getZone",
+            "url": "http://localhost:5000/graphql",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-12-17T21:23:26.658Z",
+            "modified": "2023-12-17T21:23:26.658Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "graphql",
+                "raw": "",
+                "form": [],
+                "graphql": {
+                    "query": "{\n  getZone(zoneName: \"zone 8\") {\n    zoneName\n    zoneId\n    sensors{\n        sensorName\n        sensorType\n        data{\n         value\n         }\n    }\n  }\n}\n"
+                }
+            },
+            "tests": []
+        }
+    ]
+}
